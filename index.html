@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>電卓</title>
+  <link rel="stylesheet" href="main.css">
+  <script src="main.js" defer></script>
+</head>
+<body>
+  <div id="containar">
+    <div class="display-container">
+      <div id="display">0</div>
+    </div>
+    <table>
+      <tbody>
+        <tr>
+          <td colspan="3"><button class="button" onclick="clickbutton('AC')">AC</button></td>
+          <td><button class="button" onclick="clickbutton('/')">/</button></td>
+        </tr>
+        <tr>
+          <td><button class="button" onclick="clickbutton(7)">7</button></td>
+          <td><button class="button" onclick="clickbutton(8)">8</button></td>
+          <td><button class="button" onclick="clickbutton(9)">9</button></td>
+          <td><button class="button" onclick="clickbutton('*')">*</button></td>
+        </tr>
+        <tr>
+          <td><button class="button" onclick="clickbutton(4)">4</button></td>
+          <td><button class="button" onclick="clickbutton(5)">5</button></td>
+          <td><button class="button" onclick="clickbutton(6)">6</button></td>
+          <td><button class="button" onclick="clickbutton('-')">-</button></td>
+        </tr>
+        <tr>
+          <td><button class="button" onclick="clickbutton(1)">1</button></td>
+          <td><button class="button" onclick="clickbutton(2)">2</button></td>
+          <td><button class="button" onclick="clickbutton(3)">3</button></td>
+          <td><button class="button" onclick="clickbutton('+')">+</button></td>
+        </tr>
+        <tr>
+          <td colspan="2"><button onclick="clickbutton(0)">0</button></td>
+          <td><button class="button" onclick="clickbutton('.')">.</button></td>
+          <td><button class="button" onclick="clickbutton('=')">=</button></td>
+        </tr>
+      </tbody>
+    </table>
+  </div>  
+</body>
+</html><!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>stop</title>
+  <link rel="stylesheet" href="main.css">
+  <script src="main.js" defer></script>
+</head>
+<body>
+  <h1>ストップウォッチ</h1>
+  <div class="container">
+    <div id="time" >0:0:0:0</div>
+  </div>
+    <div class="bottons">
+      <button id="start" type="button" name="スタート">スタート</button>
+      <button id="stop" type="button" name="ストップ">ストップ</button>
+      <button id="reset" type="button" name="リセット">リセット</button>
+    </div>
+ 
+
+</body>
+</html>
